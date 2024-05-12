@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather{
+    width: 600px;
+    background: #387eba;
+    padding: 20px 40px;
+    color: white;
+    position:relative;
+    background: rgb(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 20px;
+    color: white;
+    transition: height .6s ease;
+}
+.weather__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weather h1{
+    text-align: center;
+    margin: 50px 0 100px;
+    
+}
+.weather h3{
+margin-top: 15px;
+font-size: 25px;
+}
+.weather h2{
+    font-size: 30px;
+}
+.weather__bottom{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(255, 255, 255, .1);
+    width: 100%;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    border-radius:0 0 15px 15px;
+    padding: 15px 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://img.freepik.com/free-vector/purple-abstract-background_1117-127.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1714521600&semt=ais)center/cover;
+}
+input{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    bottom: 20px;
+    top: 0px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    outline: none;
+    
+}
+input::placeholder{
+    color: white;
+    text-transform: capitalize;
+}
+button{
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+    top: 0;
+    left: 65px;
+    background: transparent;
+    
+}
+button:hover{
+    background-color: purple;
+}
+img{
+    position: relative;
+    bottom: 100px;
+    left: 230px;
+}
